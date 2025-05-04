@@ -1,0 +1,24 @@
+.about-us {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px 20px;
+  background-color: #fff8f0;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #5a3e1b;
+}
+
+.about-us h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.about-us p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  text-align: center;
+}

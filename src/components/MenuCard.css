@@ -1,0 +1,37 @@
+.menu-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.menu-card h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.menu-card p {
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.price {
+  color: #333;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.add-button {
+  background-color: #333;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #444;
+}

@@ -1,0 +1,98 @@
+.user-page {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+.user-page h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.user-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.user-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  color: #555;
+  font-size: 14px;
+}
+
+.user-form input,
+.user-form textarea {
+  margin-top: 5px;
+  padding: 8px 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  resize: vertical;
+}
+
+.user-form textarea {
+  min-height: 80px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.save-button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  flex: 1;
+  margin-right: 10px;
+}
+
+.save-button:hover {
+  background-color: #0056b3;
+}
+
+.delete-button {
+  background-color: #ff4d4f;
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  flex: 1;
+}
+
+.delete-button:hover {
+  background-color: #d9363e;
+}
+
+.logout-button {
+  background-color: #6c757d;
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  flex: 1;
+}
+
+.logout-button:hover {
+  background-color: #5a6268;
+}
