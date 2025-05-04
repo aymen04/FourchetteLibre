@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../logo.svg';
 import './Header.css';
 
 function Header({ cartItemCount = 0 }) {
@@ -35,7 +36,9 @@ function Header({ cartItemCount = 0 }) {
             </Link>
           </li>
         </ul>
-      
+        <div className="logo-container">
+          <img src={require('./images/logo.png')} alt="Company Logo" className="logo" />
+        </div>
       </nav>
     </header>
   );
